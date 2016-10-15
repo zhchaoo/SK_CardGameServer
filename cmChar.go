@@ -3,8 +3,8 @@ package main
 import (
     "log"
     "encoding/json"
-    "code.google.com/p/go.net/websocket"
     "github.com/bitly/go-simplejson"
+    "golang.org/x/net/websocket"
 )
 
 func queryCharInfo(this *player) int {

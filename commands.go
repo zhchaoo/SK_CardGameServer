@@ -2,8 +2,8 @@ package main
 
 import (
     "log"
-    "code.google.com/p/go.net/websocket"
     "github.com/bitly/go-simplejson"
+    "golang.org/x/net/websocket"
 )
 
 type commandHandler func(this *player, command string, param *simplejson.Json)

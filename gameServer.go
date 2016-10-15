@@ -3,8 +3,8 @@ package main
 import (
     "log"
     "net/http"
-    "code.google.com/p/go.net/websocket"
     "github.com/bitly/go-simplejson"
+    "golang.org/x/net/websocket"
 )
 
 func wsHandler(ws *websocket.Conn) {

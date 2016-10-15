@@ -1,8 +1,8 @@
 package main
 
 import (
-    "code.google.com/p/go.net/websocket"
     "github.com/bitly/go-simplejson"
+    "golang.org/x/net/websocket"
     "log"
 )
 
