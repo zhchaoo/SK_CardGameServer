@@ -9,7 +9,7 @@ import (
 
 //FIXME: change to your own data path.
 //make sure end with '/'
-const gDataPath = "/Users/u0u0/mygo/src/gameServer/"
+const gDataPath = ""
 
 // scene.json
 type monsterData struct {
